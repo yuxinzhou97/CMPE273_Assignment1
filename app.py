@@ -64,7 +64,7 @@ class DeleteBookmarkByID(Resource):
 # It should support conditional GET.
 class GetStatsByID(Resource):
     def get(self, BookmarkID):
-        # do not use this, does not count for null header
+        # do not use this, does not account for null header
         # InputEtag = request.headers['ETag']
 
         # use this, account for optional header
