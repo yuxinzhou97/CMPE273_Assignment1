@@ -1,6 +1,6 @@
 # CMPE273_Assignment1
 
-Instructions:
+Requirements:
 https://github.com/sithu/cmpe273-fall20/tree/master/assignment1
 
 ## Install Dependencies
