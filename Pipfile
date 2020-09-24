@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "==1.1.1"
+pillow = "*"
+qrcode = "*"
+flask-monitoringdashboard = "*"
+sqlitedict = "*"
+flask-restful = "*"
+shortuuid = "*"
+pymaging = {git = "git://github.com/ojii/pymaging.git"}
+pymaging-png = {git = "git://github.com/ojii/pymaging-png.git"}
+
+[requires]
+python_version = "3.8"
