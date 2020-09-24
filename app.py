@@ -72,10 +72,10 @@ class GetStatsByID(Resource):
         if BookmarkID in mydict.keys():
             GetCount = str(mydict.get(BookmarkID)['count'])
             if InputEtag == GetCount:
-                print(InputEtag)
+                # print(InputEtag)
                 return Response(status=304, headers={'ETag': GetCount})
             else:
-                print(InputEtag)
+                # print(InputEtag)
                 # response object format: body, status code, headers
                 return Response(response=GetCount, status=200, headers={'ETag': GetCount})
         else:
